@@ -1,0 +1,93 @@
+#baseurl = "http://localhost:1313"
+languageCode = "en-us"
+title = "Product documentation"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+themesDir = "themes"
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+relativeURLs = true
+
+[params]
+	# General information
+	author = "emanic"
+	description = "Product documentation"
+	copyright = "Corporation, Inc. All rights reserved."
+	corp_site_url = "https://www.example.com"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/dsdeibdoinwed"
+
+	version = ""
+	logo = "img/logo.svg"
+	favicon = ""
+
+	permalink = "#"
+
+	# Custom assets
+	custom_css = [
+      "css/custom.css"
+	]
+	custom_js  = []
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "main-blue"
+    	accent  = "blue"
+
+    [params.font]
+    	text = "Noto Sans"
+    	code = "Fira Code"
+
+
+[social]
+	twitter = "kjdfbwedlwd"
+	github  = "sdlbhadoiqhd"
+
+[[menu.main]]
+    identifier = "welcome"
+	name   = "Welcome"
+	url    = "/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Concepts"
+	url    = "/concepts/"
+	identifier = "concepts"
+	weight = 20
+
+[[menu.main]]
+	name   = "Getting started"
+	url    = "getting-started/"
+	weight = 30
+
+[[menu.main]]
+	name   = "Guides"
+	url    = "guides/"
+	weight = 40
+
+[[menu.main]]
+	name   = "Tutorials"
+	url    = "tutorials/"
+	weight = 50
+
+[[menu.main]]
+	name   = "Reference"
+	url    = "reference/"
+	weight = 60
+
+[[menu.main]]
+	name   = "Release notes"
+	url    = "release-notes/"
+	weight = 70
+
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

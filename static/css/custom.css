@@ -1,0 +1,84 @@
+@supports (-webkit-appearance:none) {
+	.palette-primary-main-blue {
+		background: #235E91
+	}
+}
+
+.palette-primary-main-blue .footer,
+.palette-primary-main-blue .header {
+	background: #235E91
+}
+
+.palette-primary-main-blue .drawer .toc a.current,
+.palette-primary-main-blue .drawer .toc a:focus,
+.palette-primary-main-blue .drawer .toc a:hover {
+	color: #235E91
+}
+
+.palette-primary-main-blue .drawer .anchor a {
+	border-left: 2px solid #235E91
+}
+
+.ios.standalone .palette-primary-main-blue .article {
+	background: -webkit-linear-gradient(top, #fff 50%, #235E91 0);
+	background: linear-gradient(180deg, #fff 50%, #235E91 0)
+}
+
+.palette-primary-main-blue .article a,
+.palette-primary-main-blue .article code,
+.palette-primary-main-blue .article h1,
+.palette-primary-main-blue .article h2 {
+	color: #235E91
+}
+
+.palette-primary-main-blue .article .headerlink {
+	color: rgba(0, 0, 0, .26)
+}
+
+.palette-primary-main-blue .article table th {
+	background: #2570BD
+}
+
+.palette-primary-main-blue .results .meta {
+	background: #235E91
+}
+
+.palette-accent-blue .article a:focus,
+.palette-accent-blue .article a:hover {
+	color: #2570BD
+}
+
+.palette-accent-blue .repo a {
+	background: #2570BD
+}
+
+@media only screen and (max-width:959px) {
+	.palette-primary-indigo .project {
+		background: #235E91
+	}
+}
+
+.header .stretch {
+	padding-left: 4px;
+}
+
+.header .stretch .title {
+	font-weight: 700;
+	padding: 13px 0
+}
+
+.button {
+	width: 5%;
+}
+
+.button .aporeto-logo {
+  display: table-cell;
+  vertical-align: top;
+  padding: 4px;
+  height: 51px;
+}
+
+.aporeto-logo img {
+  display: block;
+
+}
