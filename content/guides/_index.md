@@ -1,8 +1,8 @@
 ---
-title: Getting started
+title: Guides
 type: single
-url: "getting-started/"
-weight: 30
+url: "/guides/"
+weight: 40
 
 ---
 

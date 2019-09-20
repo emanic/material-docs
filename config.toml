@@ -48,41 +48,54 @@ relativeURLs = true
 	twitter = "kjdfbwedlwd"
 	github  = "sdlbhadoiqhd"
 
-[[menu.main]]
+[menu]
+  [[menu.main]]
     identifier = "welcome"
 	name   = "Welcome"
 	url    = "/"
 	weight = 10
 
-[[menu.main]]
+  [[menu.main]]
 	name   = "Concepts"
 	url    = "/concepts/"
 	identifier = "concepts"
 	weight = 20
 
-[[menu.main]]
+  [[menu.main]]
+    name   = "General"
+    url    = "/concepts/general/"
+    weight = 22
+    identifier = "general"
+    parent = "concepts"
+
+  [[menu.main]]
 	name   = "Getting started"
-	url    = "getting-started/"
+	url    = "/getting-started/"
+	identifier = "getting started"
 	weight = 30
 
-[[menu.main]]
+  [[menu.main]]
 	name   = "Guides"
-	url    = "guides/"
+	url    = "/guides/"
+	identifier = "guides"
 	weight = 40
 
-[[menu.main]]
+  [[menu.main]]
 	name   = "Tutorials"
-	url    = "tutorials/"
+	url    = "/tutorials/"
+	identifier = "tutorials"
 	weight = 50
 
-[[menu.main]]
+  [[menu.main]]
 	name   = "Reference"
-	url    = "reference/"
+	url    = "/reference/"
+	identifier = "reference"
 	weight = 60
 
-[[menu.main]]
+  [[menu.main]]
 	name   = "Release notes"
-	url    = "release-notes/"
+	url    = "/release-notes/"
+	identifier = "release notes"
 	weight = 70
 
 

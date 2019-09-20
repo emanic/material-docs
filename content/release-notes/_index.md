@@ -1,8 +1,8 @@
 ---
-title: Tutorials
+title: Release notes
 type: single
-url: "tutorials/"
-weight: 50
+url: "/release-notes/"
+weight: 70
 
 ---
 

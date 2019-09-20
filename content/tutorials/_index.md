@@ -1,8 +1,8 @@
 ---
-title: Reference
+title: Tutorials
 type: single
-url: "reference/"
-weight: 60
+url: "/tutorials/"
+weight: 50
 
 ---
 
