@@ -1,7 +1,7 @@
 ---
 title: Welcome
-url: ""
-identifier: ""
+url: "/"
+identifier: "welcome"
 type: index
 weight: 10
 

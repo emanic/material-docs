@@ -1,14 +1,17 @@
 ---
 title: Concepts
-type: index
+type: single
 url: "/concepts/"
 weight: 20
 identifier: "concepts"
 
 ---
 
-## Overview
+## My concepts _index.md file
 
 ### Subheading 1
 
 ### Subheading 2
+
+Basic concepts of the platform.
+End page.

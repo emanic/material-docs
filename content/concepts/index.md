@@ -1,12 +1,12 @@
 ---
 title: Concepts
-type: index
+type: single
 url: "/concepts/"
 weight: 20
 
 ---
 
-## Basic concepts
+## My concepts index.md file
 
 ### Subheading 1
 

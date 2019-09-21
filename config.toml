@@ -62,13 +62,6 @@ relativeURLs = true
 	weight = 20
 
   [[menu.main]]
-    name   = "General"
-    url    = "/concepts/general/"
-    weight = 22
-    identifier = "general"
-    parent = "concepts"
-
-  [[menu.main]]
 	name   = "Getting started"
 	url    = "/getting-started/"
 	identifier = "getting started"
