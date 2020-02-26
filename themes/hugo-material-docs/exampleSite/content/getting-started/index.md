@@ -217,7 +217,7 @@ You need extend the frontmatter of each file content file in a section slightly.
 
 ```yaml
 menu:
-  main:
+  next:
     parent: Material
     identifier: <link name>
     weight: 0
