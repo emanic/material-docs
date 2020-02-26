@@ -43,6 +43,20 @@ relativeURLs = true
     	text = "Noto Sans"
     	code = "Fira Code"
 
+    [params.menus.saas]
+      path = "saas"
+      label = "Acme-hosted"
+
+    [params.menus.1_0]
+      path = "1.0"
+      label = "Self-hosted 1.0"
+      semver = "1.0.3"
+
+    [params.menus.1_1]
+      path = "1.1"
+      label = "Self-hosted 1.1"
+      semver = "1.1.13"
+
 
 [social]
 	twitter = "kjdfbwedlwd"

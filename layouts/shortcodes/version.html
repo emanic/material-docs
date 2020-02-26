@@ -1,0 +1,8 @@
+
+{{ range $key, $value := sort .Site.Params.menus "semver" "desc" }}
+  {{ $key }}: {{ $value }}
+    {{ if eq $key 1 }}
+      {{ printf "release-%s" .semver }}
+    {{ end }}
+{{ end }}
+
